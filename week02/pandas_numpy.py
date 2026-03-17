@@ -210,5 +210,5 @@ print(np.arange(1,100,10))
 A = np.array([4, 16, 25])
 print(np.sqrt(A))
 
-print()
+print(np.arange(8).reshape(2,4) + 10)
      
