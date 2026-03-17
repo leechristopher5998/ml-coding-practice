@@ -25,4 +25,4 @@ print(sample_df.head())
 
 print(sample_df['var_5'])
 
-#print()
+#print(sample_df['var_1'])
