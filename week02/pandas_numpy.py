@@ -96,3 +96,5 @@ print(sample_df.set_index('var_1'))
 print(sample_df.describe())
 print(sample_df.std())
 print(sample_df.agg(['count', 'mean', 'std', 'min', 'max']))
+
+file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/main/sample_df.csv'
