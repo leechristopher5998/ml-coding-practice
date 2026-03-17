@@ -104,3 +104,5 @@ print(iris.head())
 
 print(iris.groupby('class').std())
 
+print(iris.drop('class',axis=1).agg(['sum', 'mean', 'std']))
+
