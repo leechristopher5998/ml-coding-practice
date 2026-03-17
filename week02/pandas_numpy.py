@@ -135,4 +135,8 @@ data = {
     'english' : [90, 87, 85, 88, 92]
 }
 
-# taframe 생성
+# Dataframe 생성
+df = pd.DataFrame(data)
+print(df.head())
+
+# 개인별 과목 점수의 평균값 계산 (axis = 1)
