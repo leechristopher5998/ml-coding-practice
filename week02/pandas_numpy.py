@@ -26,4 +26,4 @@ print(sample_df.head())
 print(sample_df['var_5'])
 
 #print(sample_df['var_1', 'var_2]) # [] 안에는 하나의 값만 들어 갈 수 있음
-print(sample_df[['var_1', 'var_4']]) # [] 안에 리스트 형태로 여러 개의 값을 넣어야 함
+print(sample_df[['var_1', 'var_4']]) # []를 사용하면 [] 가 하나의 값으로 인식됨
