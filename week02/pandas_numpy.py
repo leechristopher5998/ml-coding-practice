@@ -116,5 +116,5 @@ print(iris['class'].value_counts())
 data = {
     'name' : ['Alice', 'Bob', 'Charlie', 'David'],
     age : [25, 30, 35, 40],
-    salary : [70000.00, 80000.00, 90000.00, 100000.00]
-}
+    salary : [70000.00, 80000.00, 90000.00, 60000.00 95000.00]
+    
