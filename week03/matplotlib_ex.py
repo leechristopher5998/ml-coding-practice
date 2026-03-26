@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# 타이티닉 데이터셋 불러오기
+import pandas as pd
+
+# 타이타닉 CSV 파일 불러오기
+titanic 
