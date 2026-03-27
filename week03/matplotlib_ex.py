@@ -171,4 +171,5 @@ print(survived_counts)
 plt.figure(figsize=(10,0))
 
 # 나이대별 생존자
-plt.fill_between(survived_counts.index.astype)
+plt.fill_between(survived_counts.index.astype(str), survived_counts[1]),
+                
