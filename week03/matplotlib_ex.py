@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 타이티닉 데이터셋 불러오기
+# 타이타닉 데이터셋 불러오기
 import pandas as pd
 
 # 타이타닉 CSV 파일 불러오기
@@ -20,17 +20,18 @@ pclass_survived_mean = titanic.groupby('Pclass')['Survived'].mean().reset_index(
 pclass_survived_mean
 
 # 맷플롯립 라이브러리 불러오기
-import matplotlib.pyplot as plt  
+import matplotlib.pyplot as plt
 
 # 선 그래프 그리기
 plt.plot(pclass_survived_mean['Pclass'], pclass_survived_mean['Survived'],
-         market='o', linestyle='-', color='violet')
+         marker='o', linestyle='-', color='violet')
 plt.title('Survival Rate Variation Across Passenger Classes')
 plt.xlabel('Pclass')
 plt.ylabel('Survival Rate')
+plt.xticks([1, 2, 3])
 plt.grid(True)
-plt.savefig('Figure01.png')       # 결과를 그림파일로 저장
-plt.close()                       # 다음 Plot을 새로 그리기 위해 plt 닫기
+plt.savefig('Figure01.png')         # 결과를 그림파일로 저장
+plt.close()                         # 다음 Plot을 새로 그리기 위해 plt 닫기
 
 """### **수직 막대 그래프 : 각 승선 항구에 따른 생존자 수 확인하기**"""
 
@@ -40,4 +41,4 @@ print(survived_counts)
 
 # 막대 그래프 그리기
 plt.bar(survived_counts.index, survived_counts,
-        color = ['mediumorchid', 'darkviolt', 'indigo'])
+        color = ['mediumorchid', 'darkviolet', 'indigo'])
