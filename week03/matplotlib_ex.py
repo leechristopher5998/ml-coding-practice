@@ -138,3 +138,6 @@ plt.closse()
 
 # 결측치 처리
 titanic = titanic.dropna(subset = ['Age', 'Fare'])
+
+#상관 행렬 게산
+correlation
