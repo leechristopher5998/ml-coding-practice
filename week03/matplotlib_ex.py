@@ -140,4 +140,4 @@ plt.closse()
 titanic = titanic.dropna(subset = ['Age', 'Fare'])
 
 #상관 행렬 게산
-correlation
+correlation_matrix 
