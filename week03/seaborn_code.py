@@ -1,4 +1,14 @@
 # -*- coding: utf-8 -*-
 
 # 사본 라이브러리 불러오기
-import seaborn ZipFile The class for reading and writing ZIP files.  See section 
+import seaborn as sns
+
+# **팁(tips) 데이터셋 불러오기**
+tips = sns.load_dataset('tips')
+print(tips.head())
+
+tips.info()
+
+# **범부형 변수 산정도 그래프**
+
+
