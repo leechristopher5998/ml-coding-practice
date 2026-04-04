@@ -25,4 +25,5 @@ sns.stripplot(x='day', y='total_bill', hue='sex', data=tips, alpha = 0.7, ax=ax1
 sns.swarmplot(x='day', y='total_bill', data=tips,alpha = 0.7, alpha = 0.7, ax=ax2)
 
 # 서브 플롯의 제목 설정
-ax1.set-title
+ax1.set-title('Strip Plot of Tip by Day and Gender')
+ax2.set_title('Swarm Plot of Tip by Day and Gender')
